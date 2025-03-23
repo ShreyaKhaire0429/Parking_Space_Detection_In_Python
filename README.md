@@ -1,37 +1,22 @@
-# Parking_Space_Detection_In_Python
-**Parking Space Detection in Python** is a computer vision project that detects and highlights available parking spots using OpenCV. It processes video or image inputs to identify occupied and vacant spaces efficiently. Ideal for smart parking solutions, this project enhances parking management automation. 🚗📸
+# OpenCV-Parking-Space-Counter
+Open-CV / Python project, using Open-CV to monitor the parking lot and count all available and occupied spaces in real time. 
 
-Project Overview
-The main goal of this project is to develop a computer vision application that counts the number of available parking spaces in a video. The system processes video frames, analyzes the parking spaces, and displays the count of free and occupied spots.
+# Description
+Program detects parking spaced on a parking lot, differentiates free from occupied spaces and counts free (avaliable) spaces.  
 
-Files
-Parking_space_posintions.py: Script for defining and managing parking space positions.
-README.md: This file, providing an overview of the project.
-carPark.mp4: Input video file used for parking space detection.
-example_image.png: Example image used for visualization or testing.
-main.py: Main script for running the parking space counter application.
-output.mp4: Output video showing the parking space count annotations.
-positions: Binary file containing parking space positions.
-requirements.txt: File listing the Python dependencies required for the project.
-Setup and Installation
-To set up the project and install the necessary dependencies, follow these steps:
+# Project structure
+Project constist of main.py file, ParkingSpacePicker.py file and Assets folder
 
-Clone the Repository
+Assets folder contains a testing image and a testing video (mp4 format). Testing image is showing the parking space, video shows the same parking space with several cars moving.
 
-git clone https://github.com/ShreyaKhaire0429/Parking_Space_Detection_In_Python.git
-cd Parking-Space-Counter-using-OpenCV-Python-Computer-Vision
-Install Dependencies
+# How to use
+Run the main.py file
 
-pip install -r requirements.txt
-Run the Application
+The program will open the Video window on your screen. 
 
-python main.py
-Dependencies
+All parking spaces will be designated with a rectangle. Free spaces will be designated with a green rectangle and occupied spaces will be designated with a red rectangle. 
 
-The requirements.txt file includes the necessary Python libraries for this project. Ensure you have the following packages installed:
+On the bottom-left edge of every rectangle there will be numbers shown, these numbers represent the number of white pixels during the video processing. The program counts the white pixels to differentiate occupied from free spaces, occupied spaces contain more pixels than free spaces. 
 
-opencv-python || cvzone || numpy
-
-Output
-
-output of the parking space counting system:
+Spaces Counter is located on the top-left corner of the window screen. 
+left number shows how many free spaces there are, and right number shows the total number of parking spaces. 
