@@ -18,7 +18,7 @@ To set up the project and install the necessary dependencies, follow these steps
 
 Clone the Repository
 
-git clone https://github.com/yourusername/Parking-Space-Counter-using-OpenCV-Python-Computer-Vision.git
+git clone https://github.com/ShreyaKhaire0429/Parking_Space_Detection_In_Python.git
 cd Parking-Space-Counter-using-OpenCV-Python-Computer-Vision
 Install Dependencies
 
