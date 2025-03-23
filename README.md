@@ -1,5 +1,5 @@
-# OpenCV-Parking-Space-Counter
-Open-CV / Python project, using Open-CV to monitor the parking lot and count all available and occupied spaces in real time. 
+# Parking-Space-Detection_In_Python
+Python project, using Open-CV to monitor the parking lot and count all available and occupied spaces in real time. 
 
 # Description
 Program detects parking spaced on a parking lot, differentiates free from occupied spaces and counts free (avaliable) spaces.  
