@@ -21,5 +21,5 @@ On the bottom-left edge of every rectangle there will be numbers shown, these nu
 Spaces Counter is located on the top-left corner of the window screen. 
 left number shows how many free spaces there are, and right number shows the total number of parking spaces. 
 
-Demo
+# Demo
 <img width="1375" height="938" alt="Screenshot 2026-04-21 104141" src="https://github.com/user-attachments/assets/1ef3305a-056c-4b17-85eb-0fc91d3ec554" />
