@@ -22,4 +22,4 @@ Spaces Counter is located on the top-left corner of the window screen.
 left number shows how many free spaces there are, and right number shows the total number of parking spaces. 
 
 Demo
-<img width="1054" height="832" alt="Screenshot 2026-04-21 104141" src=""C:\Users\DELL\OneDrive\Pictures\Screenshots\Screenshot 2026-04-21 104141.png"" />
+<img width="1375" height="938" alt="Screenshot 2026-04-21 104141" src="https://github.com/user-attachments/assets/1ef3305a-056c-4b17-85eb-0fc91d3ec554" />
